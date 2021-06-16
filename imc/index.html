@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Hilquias Abias">
+    <meta name="description" content="Ver data e hora atual">
+    <meta name="keywords" content="data, hora, atual">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/main.js" defer></script>
+    <title>Modelo</title>
+</head>
+<body>
+    <main>
+        <article class="container">
+            <h1>Tabela IMC</h1>
+            <section class="imc">
+                <ul class="ul-imc">
+                    <li><strong>IMC</strong></li>
+                    <li>Menos do que 18,5</li>
+                    <li>Entre 18,5 e 24,9</li>
+                    <li>Entre 25 e 29,9</li>
+                    <li>Entre 30 e 34,9</li>
+                    <li>Entre 35 e 39,9</li>
+                    <li>Mais do que 40</li>
+                </ul>
+                <ul class="ul-resultado">
+                    <li><strong>Resultado</strong></li>
+                    <li>Abaixo do peso</li>
+                    <li>Peso normal</li>
+                    <li>Sobrepeso</li>
+                    <li>Obesidade grau 1</li>
+                    <li>Obesidade grau 2</li>
+                    <li>Obesidade grau 3</li>
+                </ul>
+            </section>
+            
+            <section class="sect-form">
+                <h1>Calcule seu IMC</h1>
+                <form action="" method="get" class="form">
+                    <label for="peso">Peso:</label>
+                    <input type="text" id="peso">
+                    
+                    <label for="altura">Altura:</label>
+                    <input type="text" id="altura">
+                    
+                    <button>Calcular</button>
+                </form>
+            </section>
+            <div class="resultado"></div>
+        </article>
+    </main>
+</body>
+</html>

@@ -1,0 +1,170 @@
+:root {
+    --primary-color: rgb(114, 243, 200);
+    --shadow-color: rgba(71, 80, 77, 0.555);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* home */
+
+.nav-menu {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    border-bottom: 3px solid var(--shadow-color);
+}
+
+.logo {
+    font-size: 3em;
+    margin-left: 100px;
+    text-transform: capitalize;
+}
+
+.ul-menu {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.ul-item {
+    list-style-type: none;
+}
+
+.ul-item a {
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 1.4em;
+    text-transform: capitalize;
+    color: black;
+}
+
+.ul-item a:hover {
+    border-bottom: 2px solid black;
+}
+
+.section-title {
+    width: fit-content;
+    margin: 60px auto;
+    font-size: 2em;
+}
+
+.principal-content {
+    max-width: 650px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    text-align: right;
+}
+
+.principal-content img {
+    width: 200px;
+    height: 200px;
+    margin: 0 6px 10px 0;
+    float: left;
+    border: 6px solid var(--primary-color);
+    box-shadow: 3px 3px 5px 5px var(--shadow-color);
+    border-radius: 100%;
+}
+
+/* services */
+
+/* .card-section {
+    margin: 150px 0;
+} */
+
+.card-title {
+    margin: 100px auto;
+}
+
+.cards-division {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--primary-color);
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.card-img {
+    width: 250px;
+    height: 200px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.card-text {
+    width: 250px;
+    height: 150px;
+    text-align: center;
+}
+
+/* about */
+
+.about-section {
+    margin: 200px 0;
+    width: 100%;
+    height: 500px;
+}
+
+.about-header {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.about-header p {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 0.9em;
+}
+
+.about-section img {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+
+.about-content {
+    width: 1000px;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+/* contact */
+
+.main-footer {
+    width: 100%;
+    height: 400px;
+    margin-top: 200px;
+    background-color: var(--primary-color);
+}
+
+#contact {
+    width: 400px;
+    margin: 100px auto;
+    height: fit-content;
+    text-align: center;
+}
+
+#contact img {
+    width: 18px;
+    height: 18px;
+}
+
